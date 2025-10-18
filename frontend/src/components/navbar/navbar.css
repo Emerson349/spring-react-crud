@@ -1,0 +1,51 @@
+.navbar-container {
+    padding: -10px;
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    border-style: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 8px;
+    margin-left: -33px;
+}
+
+.nav-button {
+    flex: 1;
+    margin: 0;
+    padding: 4px;
+    color: rgb(108, 108, 108);
+    background-color: rgb(234, 234, 234);
+    font-size: 0.9em;
+    border-radius: 8px;
+    border: 1px solid rgb(234, 234, 234); 
+    box-shadow: none;     
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-button svg {
+    vertical-align: middle; 
+    position: relative;
+    top: -1px;
+}
+
+.nav-button:hover {
+  border-color: #ccc;
+}
+
+.nav-button.active {
+    background-color: rgba(255, 254, 254, 0.967);
+    color: rgb(20, 20, 20);
+}
+
+.content-area {
+    width: 100%;
+}

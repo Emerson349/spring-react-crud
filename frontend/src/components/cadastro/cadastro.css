@@ -1,0 +1,60 @@
+.cadastro-container {
+    position: absolute; 
+    left: 9%;
+    right: 9%; 
+    top: 67%; 
+    transform: translateY(-50%);
+    background-color: #FFFEFE;
+    padding: 20px;
+    text-align: left;
+    border: thin solid rgb(226, 226, 226);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-container p {
+    font-size: 0.9em;
+    margin-top: 6px;
+
+}
+
+.cadastro-container h2 {
+    font-size: 0.95em;
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: -8px;
+}
+
+.cadastro-form label {
+    margin-top: 20px;
+    font-weight: 530;
+    font-size: 0.9em;
+}
+
+.cadastro-form input {
+    padding: 12px;
+    border-radius: 10px;
+    border: thin solid rgb(226, 226, 226);
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-form button {
+    margin-top: 20px;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    border-radius: 10px;
+    background-color: black;
+    color: #FFFEFE;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.mensagem { 
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}

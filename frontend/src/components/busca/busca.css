@@ -1,0 +1,80 @@
+.busca-container {
+    width: 100%;
+    max-width: 1220px;
+    min-width: 350px;
+    margin: 20px auto; 
+    background-color: #FFFEFE;
+    padding: 20px;
+    border: thin solid rgb(226, 226, 226);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.busca-container h2 {
+    font-size: 0.95em;
+    margin-bottom: 4px;
+}
+
+.busca-container p {
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 12px;
+}
+
+.busca-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.busca-form input {
+    padding: 12px;
+    border-radius: 10px;
+    border: thin solid rgb(226, 226, 226);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+}
+
+.busca-form label {
+    font-size: 0.9em;
+    margin-bottom: -10px;
+}
+
+.busca-form button {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: black;
+    color: #FFFEFE;
+    font-size: 0.9em;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+    margin-top: 8px;
+}
+
+.resultado-container {
+    width: 100%; 
+    max-width: 1220px;
+    min-width: 350px;
+    margin: 20px auto; 
+    background-color: #FFFEFE;
+    padding: 10px 20px;
+    border: thin solid rgb(226, 226, 226);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    gap: 8px;
+}
+
+.resultado-container h3 {
+    margin-bottom: 20px;
+}
+
+.resultado-container p {
+    color: black;
+    font-size: 1.0em;
+}
