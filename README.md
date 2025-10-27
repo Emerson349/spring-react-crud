@@ -20,12 +20,5 @@ Se a página parecer “carregando” ou sem resposta nas primeiras tentativas, 
 - **Hospedagem:**  
   - Front: [Vercel](https://vercel.com)  
   - Back: [Render](https://render.com)
-"""
+"
 
-# Caminho do arquivo
-file_path = Path("/mnt/data/README.md")
-
-# Salva o arquivo
-file_path.write_text(readme_content, encoding="utf-8")
-
-file_path
