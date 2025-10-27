@@ -1,7 +1,4 @@
-from pathlib import Path
-
-# Conteúdo do README
-readme_content = """# CRUD FullStack (Spring Boot + React)
+# CRUD FullStack (Spring Boot + React)
 
 Este é um projeto **FullStack** desenvolvido com **Spring Boot (Java)** no back-end e **React** no front-end.
 
@@ -20,5 +17,5 @@ Se a página parecer “carregando” ou sem resposta nas primeiras tentativas, 
 - **Hospedagem:**  
   - Front: [Vercel](https://vercel.com)  
   - Back: [Render](https://render.com)
-"
+
 
